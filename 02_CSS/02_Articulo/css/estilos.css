@@ -1,0 +1,51 @@
+body{
+    background-color: #347928;
+}
+
+.contenedor {
+    background-color: #D2FF72;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    background-color: #FCCD2A;
+    margin: 25px;
+    height: 70px;
+    align-items: center;
+    align-content: center;
+}
+
+.intro-articulo {
+    text-align: center;
+}
+
+.parrafos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.parrafo {
+    width: 20%;
+    border-style: solid;
+    border-color: red;
+    padding: 10px;
+}
+
+h2 {
+    background-color: blue;
+    padding: 15px;
+    color: white;
+}
+
+.centro {
+    background-color: white;
+    align-items: center;
+    align-content: center;
+}
+
+.tipos, .ventajas {
+    margin: 25px;
+}
