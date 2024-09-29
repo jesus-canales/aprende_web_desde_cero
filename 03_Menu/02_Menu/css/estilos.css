@@ -1,0 +1,52 @@
+body {
+    background-image: url(../image/fondo-2.jpg);
+    background-size: cover;
+}
+
+nav {
+    max-width: 900px;
+    margin: auto;
+    background-color: #6B240C;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #FEECB3;
+    text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+    background-color: #FFB000;
+}
+
+.submenu-catalogo {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #994D1C;
+}
+
+.menu-horizontal li:hover .submenu-catalogo {
+    display: block;
+}
+
+.submenu-catalogo li:hover {
+    background-color: #8E3200;
+}
+
+.submenu-catalogo li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
