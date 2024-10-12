@@ -17,12 +17,12 @@ formularioregistro.addEventListener("submit", function(event){
         return;
     }
 
-    if ( !correo.trim() ) {
+    if ( !correo.trim() || esCorreoValido(correo)) {
         mostrarError("El correo es requrerido");
         return;
     }
 
-    if ( !contrasena.trim()) {
+    if ( !contrasena.trim() || esContrasenaCorrecta(contrasena)) {
         mostrarError("La contraseña es requerida");
         return;
     }
@@ -34,4 +34,13 @@ function mostrarError ( mensaje ) {
     mensajeerror.className = "error";
     mensajeerror.textContent = mensaje;
     mensajeserror.appendChild(mensajeerror);
+}
+
+function esCorreoValido( correo ) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo);
+}
+
+function esContrasenaCorrecta( contrasena ) {
+    let patron = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}$/;
+    return patron.test(contrasena);
 }
