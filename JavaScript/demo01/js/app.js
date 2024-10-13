@@ -16,7 +16,7 @@ formularioregistro.addEventListener("submit", function (evento) {
         return;
     }
 
-    if ( !correo.trim() ) {
+    if ( !correo.trim() || !esCorreoValido(correo) ) {
         mostrarError("El correo es obligatorio.");
         return;
     }
@@ -36,4 +36,8 @@ function mostrarError( mensaje ){
     mensajeerror.className = "error";
     mensajeerror.textContent = mensaje;
     mensajeserror.appendChild(mensajeerror);
+}
+
+function esCorreoValido( email ) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
