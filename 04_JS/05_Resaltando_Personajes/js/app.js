@@ -1,5 +1,7 @@
 // 01 Asignando un evento click sobre el subtítulo
+
 const miSubtitulo = document.getElementById('subtitulo');
+
 miSubtitulo.addEventListener('click', function(){
     console.log('Haz hecho click');
 });
