@@ -1,0 +1,47 @@
+html{
+    font-size: 16px;
+    font-family: "Fira Mono", monospace;
+    line-height: 1.5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 3rem auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.boton {
+    background-color: #0002A1;
+    color: white;
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    border: 1px solid #608BC1;
+}
+
+.boton {    
+    transition: background-color .4s ease-in-out;
+}
+
+.boton:hover{
+    background-color: #FF5200;
+    color: #f5f5f4;
+    border: 1px solid #e7eb04;
+}
+
