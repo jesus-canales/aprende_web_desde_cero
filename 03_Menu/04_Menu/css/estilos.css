@@ -12,6 +12,15 @@ header {
     margin: 3rem auto;
 }
 
+@media screen {
+    nav{
+        display: none;
+    }
+    .menu-icono{
+        display: flex;
+    }
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -45,3 +54,11 @@ nav ul a {
     border: 1px solid #e7eb04;
 }
 
+.menu-icono {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    border: none;
+}
