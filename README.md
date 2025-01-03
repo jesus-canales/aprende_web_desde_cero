@@ -1,6 +1,7 @@
 # Construcción e Implementación de un Proyecto Web
 
 ## 1. Investigación y Análisis
+
 **- Objetivo:** Entender las necesidades del proyecto y definir su propósito.
 
 **- Pasos prácticos:**
@@ -14,6 +15,7 @@
 **- Resultado:** Un documento que describa objetivos claros, público objetivo y características necesarias.
 
 ## 2. Planificación
+
 **- Objetivo:** Crear un plan detallado del proyecto.
 
 **- Pasos prácticos:**
@@ -26,8 +28,8 @@
 
 **- Resultado:** Un plan de acción que incluye un cronograma y herramientas necesarias.
 
-
 ## 3. Diseño
+
 **- Objetivo:** Crear un modelo visual del sitio.
 
 **- Pasos prácticos:**
@@ -40,42 +42,43 @@
 
 **- Resultado:** Un diseño claro que sirva como guía para los desarrolladores.
 
+
 ## 4. Desarrollo
+
 **- Objetivo:** Construir el sitio usando lenguajes y herramientas de programación.
 
 **- Pasos prácticos:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;**a. Front-end::** 
-Usa HTML para la estructura, CSS para el diseño y JavaScript para la interactividad. 
-Asegúrate de que el sitio sea responsivo y funcione en dispositivos móviles.
 
-&nbsp;&nbsp;&nbsp;&nbsp;**b. Back-end:**
-Configura la lógica del servidor, la base de datos y las APIs necesarias.
-Asegura la seguridad de los datos de los usuarios.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-** Usa HTML para la estructura, CSS para el diseño y JavaScript para la interactividad. 
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-** Asegúrate de que el sitio sea responsivo y funcione en dispositivos móviles.
 
-&nbsp;&nbsp;&nbsp;&nbsp;**c. Integración de contenido:** 
-Define colores, fuentes, imágenes y el tono general del sitio.
+&nbsp;&nbsp;&nbsp;&nbsp;**b. Back-end:** 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-** Configura la lógica del servidor, la base de datos y las APIs necesarias.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-** Asegura la seguridad de los datos de los usuarios.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**c. Integración de contenido:** Define colores, fuentes, imágenes y el tono general del sitio.
 
 **- Resultado:** Un sitio funcional listo para pruebas.
 
+
 ## 5. Pruebas (testing)
+
 **- Objetivo:** Garantizar que el sitio funcione correctamente y sea fácil de usar.
 
 **- Pasos prácticos:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;**a. Pruebas funcionales:** 
-Asegúrate de que el sitio cargue rápido.
+&nbsp;&nbsp;&nbsp;&nbsp;**a. Pruebas funcionales:** Asegúrate de que el sitio cargue rápido.
 
-&nbsp;&nbsp;&nbsp;&nbsp;**b. Pruebas de rendimiento**
-Asegúrate de que el sitio cargue rápido.
+&nbsp;&nbsp;&nbsp;&nbsp;**b. Pruebas de rendimiento:** Asegúrate de que el sitio cargue rápido.
 
+&nbsp;&nbsp;&nbsp;&nbsp;**c. Pruebas de usabilidad:** Pide a usuarios reales que naveguen por el sitio y proporciona feedback.
 
-&nbsp;&nbsp;&nbsp;&nbsp;**c. Pruebas de usabilidad:** 
-Pide a usuarios reales que naveguen por el sitio y proporciona feedback.
-
-&nbsp;&nbsp;&nbsp;&nbsp;**c. Pruebas de compatibilidad:** 
-Prueba el sitio en diferentes navegadores y dispositivos
+&nbsp;&nbsp;&nbsp;&nbsp;**c. Pruebas de compatibilidad:** Prueba el sitio en diferentes navegadores y dispositivos
 
 **- Resultado:** Un sitio optimizado y libre de errores técnicos.
 
@@ -84,11 +87,11 @@ Prueba el sitio en diferentes navegadores y dispositivos
 
 **- Pasos prácticos:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Configurar el hosting: Sube el sitio al servidor web y configura el dominio.
+&nbsp;&nbsp;&nbsp;&nbsp;**a. Configurar el hosting:** Sube el sitio al servidor web y configura el dominio.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Instalar SSL: Asegúrate de que el sitio sea seguro (https://).
+&nbsp;&nbsp;&nbsp;&nbsp;**b. Instalar SSL:** Asegúrate de que el sitio sea seguro (https://).
 
-&nbsp;&nbsp;&nbsp;&nbsp;Promoción: Anuncia el lanzamiento del sitio en redes sociales y otros canales de comunicación.
+&nbsp;&nbsp;&nbsp;&nbsp;**c. Promoción:** Anuncia el lanzamiento del sitio en redes sociales y otros canales de comunicación.
 
 **- Resultado:** El sitio está en línea y disponible para los usuarios.
 
@@ -97,15 +100,28 @@ Prueba el sitio en diferentes navegadores y dispositivos
 
 **- Pasos prácticos:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Monitorización: Utiliza herramientas como Google Analytics para analizar el tráfico y el comportamiento de los usuarios.
+&nbsp;&nbsp;&nbsp;&nbsp;**a. Monitorización:** Utiliza herramientas como Google Analytics para analizar el tráfico y el comportamiento de los usuarios.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Actualización de contenido: Añade nuevos artículos, imágenes o productos regularmente
+&nbsp;&nbsp;&nbsp;&nbsp;**b. Actualización de contenido:** Añade nuevos artículos, imágenes o productos regularmente
 
-&nbsp;&nbsp;&nbsp;&nbsp;Solución de problemas: Repara errores técnicos o de diseño que surjan con el tiempo.
+&nbsp;&nbsp;&nbsp;&nbsp;**c. Solución de problemas:** Repara errores técnicos o de diseño que surjan con el tiempo.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Optimización continua: Mejora el SEO, la velocidad del sitio y la experiencia del usuario.
+&nbsp;&nbsp;&nbsp;&nbsp;**d. Optimización continua:** Mejora el SEO, la velocidad del sitio y la experiencia del usuario.
 
 **- Resultado:** Un sitio web confiable, actualizado y que sigue cumpliendo con los objetivos a largo plazo.
 
 ## Resumen
 
+**Investigación y Análisis →** Conocer qué necesitas.
+
+**Planificación →** Organizar cómo lo harás.
+
+**Diseño →** Visualizar cómo se verá.
+
+**Desarrollo →** Construir la estructura y funcionalidad.
+
+**Pruebas →** Asegurar que todo funcione.
+
+**Lanzamiento →** Publicar el sitio en línea.
+
+**Mantenimiento →** Mejorar y actualizar continuamente.
